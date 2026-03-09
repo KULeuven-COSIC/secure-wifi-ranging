@@ -13,3 +13,7 @@ Our experimental workflow is based in part on the MathWorks [802.11az waveform g
 ## Integration of the provided code
 
 Our repository-specific functions are provided in the `custom-functions` folder. These functions are intended to be incorporated into the corresponding MathWorks workflow. Additional documentation in that folder explains the role of each function, how it relates to the original example, and how it was used in our evaluation.
+
+## Board-specific code and configuration files
+
+This repository does not include any board-specific code, firmware, or configuration files related to the boards used for our measurements and for obtaining the waveforms. Access to the relevant platform materials required acceptance of a non-disclosure agreement, and we are therefore unable to share any board-related software or configuration artefacts used in our evaluation.
