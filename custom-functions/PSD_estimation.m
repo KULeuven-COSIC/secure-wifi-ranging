@@ -3,6 +3,17 @@
 % The PSD and spectral-mask analysis code is meant to run inside the WLAN Toolbox IEEE 802.11az positioning example "HERangingPositioningExample.mlx".
 % It should be placed in the helper function "heRangingWavGenPlot.m", after the ranging waveform has been generated, so that it can reuse the existing variables.
 
+% -- Use the following settings in "HERangingPositioningExample.mlx":
+%
+%     cfg = heRangingConfig('NumTransmitAntennas',2);
+%     cfg.User{1}.NumSpaceTimeStreams = 2;
+%     cfg.User{1}.NumHELTFRepetition = 5;
+
+%     cfg = heRangingConfig('NumTransmitAntennas',2,'SecureHELTF',true);
+%     cfg.User{1}.NumSpaceTimeStreams = 2;
+%     cfg.User{1}.NumHELTFRepetition = 8;
+%     cfg.User{1}.SecureHELTFSequence = '12345678ABCDEF1234';
+
 % ----------------------------
 % Spectrum plots (ideal vs PA, with mask) + metrics
 % ----------------------------
@@ -13,7 +24,7 @@ if plotSpectrum
     nfft   = 16384; % power of two for efficient computation
     maxWin = 4096;
 
-    osf = 6; % oversample for PA + PSD evaluation (try 4..8)
+    osf = 6; % oversample for PA + PSD evaluation
     usePA = true; % do we want NL model
 
     % ---- 20 MHz interim transmit spectral mask (27.3.19.1), dBr ----
@@ -34,8 +45,8 @@ if plotSpectrum
     if usePA
         nl = comm.MemorylessNonlinearity;
         nl.Method = 'Rapp model';
-        nl.Smoothness = 4;              % try 2.5..4
-        nl.OutputSaturationLevel = 0.7; % try 0.7..0.9
+        nl.Smoothness = 4;              
+        nl.OutputSaturationLevel = 0.7; 
         nl.InputScaling  = 1;
         nl.OutputScaling = 1;
     end
