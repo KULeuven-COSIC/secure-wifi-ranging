@@ -10,4 +10,6 @@ This repository contains source code and artefact, for anonymous review submitte
 
 Our experimental workflow is based in part on the MathWorks [802.11az waveform generation example](https://www.mathworks.com/help/wlan/ug/802-11az-waveform-generation.html). As MathWorks code is copyrighted, we cannot redistribute it in this repository. Therefore, we provide only our original functions and code sections, which are intended to be incorporated into the corresponding MathWorks framework by users with legitimate access to it.
 
-These repository-specific functions are provided in the `custom-functions` folder. Additional documentation in that folder explains how each function relates to the original workflow and how it was used in our evaluation.
+## Integration of the provided code
+
+Our repository-specific functions are provided in the `custom-functions` folder. These functions are intended to be incorporated into the corresponding MathWorks workflow. Additional documentation in that folder explains the role of each function, how it relates to the original example, and how it was used in our evaluation.
