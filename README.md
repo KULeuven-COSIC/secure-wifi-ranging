@@ -17,3 +17,8 @@ Our repository-specific functions are provided in the `custom-functions` folder.
 ## Board-specific code and configuration files
 
 This repository does not include any board-specific code, firmware, or configuration files related to the boards used for our measurements and for obtaining the waveforms. Access to the relevant platform materials required acceptance of a non-disclosure agreement, and we are therefore unable to share any board-related software or configuration artefacts used in our evaluation.
+
+## Acknowledgments
+
+This work was supported by the Flemish Government through the Cybersecurity Research Program (VOEWICS02), by COST Action CA22168 – Physical Layer Security for Trustworthy and Resilient 6G Systems, by the ``University SAL Labs'' initiative of Silicon Austria Labs and its Austrian partner universities for applied fundamental research for electronic-based systems, and by the Linz Center of Mechatronics in the framework of the Austrian COMET-K2 programme.
+
