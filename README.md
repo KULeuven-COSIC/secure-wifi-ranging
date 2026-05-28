@@ -20,5 +20,5 @@ This repository does not include any board-specific code, firmware, or configura
 
 ## Acknowledgments
 
-This work was supported by the Flemish Government through the Cybersecurity Research Program (VOEWICS02), by COST Action CA22168 – Physical Layer Security for Trustworthy and Resilient 6G Systems, by the ``University SAL Labs'' initiative of Silicon Austria Labs and its Austrian partner universities for applied fundamental research for electronic-based systems, and by the Linz Center of Mechatronics in the framework of the Austrian COMET-K2 programme.
+This work was supported by the Flemish Government through the Cybersecurity Research Program (VOEWICS02), by COST Action CA22168 – Physical Layer Security for Trustworthy and Resilient 6G Systems, by the “University SAL Labs” initiative of Silicon Austria Labs and its Austrian partner universities for applied fundamental research for electronic-based systems, and by the Linz Center of Mechatronics in the framework of the Austrian COMET-K2 programme.
 
