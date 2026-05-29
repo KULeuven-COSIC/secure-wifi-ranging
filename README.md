@@ -18,6 +18,61 @@ Our repository-specific functions are provided in the `custom-functions` folder.
 
 This repository does not include any board-specific code, firmware, or configuration files related to the boards used for our measurements and for obtaining the waveforms. Access to the relevant platform materials required acceptance of a non-disclosure agreement, and we are therefore unable to share any board-related software or configuration artefacts used in our evaluation.
 
+## Abbreviations
+
+To improve readability and provide a quick reference for the concepts discussed in our paper, we have compiled a comprehensive table of the abbreviations used throughout the text.
+
+| Abbreviation | Definition |
+| :--- | :--- |
+| **ACK** | Acknowledgement |
+| **AP** | Access Point |
+| **AWGN** | Additive White Gaussian Noise |
+| **DFT** | Discrete Fourier Transform |
+| **EDCA** | Enhanced Distributed Channel Access |
+| **EVM** | Error Vector Magnitude |
+| **FTM** | Fine Timing Measurement |
+| **FTMR** | Fine Timing Measurement Request |
+| **GI** | Guard Interval |
+| **GPS** | Global Positioning System |
+| **HE** | High Efficiency |
+| **HE-LTF** | High Efficiency Long Training Field |
+| **IFFT** | Inverse Fast Fourier Transform |
+| **ISTA** | Initiator Station |
+| **KDK** | Key Derivation Key |
+| **KRACK** | Key Reinstallation Attacks |
+| **MAC** | Medium Access Control |
+| **MAP** | Maximum A Posteriori |
+| **MUSIC** | Multiple Signal Classification |
+| **NDA** | Non-Disclosure Agreement |
+| **NDP** | Null Data Packet |
+| **NGP** | Next Generation Positioning |
+| **NLL** | Negative Log-Likelihood |
+| **OFDM** | Orthogonal Frequency-Division Multiplexing |
+| **PASN** | Preassociation Security Negotiation |
+| **PHY** | Physical Layer |
+| **PMF** | Protected Management Frames |
+| **PMK** | Pairwise Master Key |
+| **PPDU** | Physical Layer Protocol Data Unit |
+| **PSD** | Power Spectral Density |
+| **PTK** | Pairwise Temporal Key |
+| **PTKSA** | Pairwise Temporal Key Security Association |
+| **QAM** | Quadrature Amplitude Modulation |
+| **RF** | Radio Frequency |
+| **RMS** | Root Mean Square |
+| **RMSE** | Root Mean Square Error |
+| **RSS** | Received Signal Strength |
+| **RSTA** | Responding Station |
+| **RTT** | Round Trip Time |
+| **SAC** | Sequence Authentication Code |
+| **SAE** | Simultaneous Authentication of Equals |
+| **SNR** | Signal-to-Noise Ratio |
+| **SSID** | Service Set Identifier |
+| **STA** | Station |
+| **TB** | Trigger-Based |
+| **ToA** | Time of Arrival |
+| **ToF** | Time of Flight |
+| **UWB** | Ultra-Wideband |
+
 ## Acknowledgments
 
 This work was supported by the Flemish Government through the Cybersecurity Research Program (VOEWICS02), by COST Action CA22168 – Physical Layer Security for Trustworthy and Resilient 6G Systems, by the “University SAL Labs” initiative of Silicon Austria Labs and its Austrian partner universities for applied fundamental research for electronic-based systems, and by the Linz Center of Mechatronics in the framework of the Austrian COMET-K2 programme.
