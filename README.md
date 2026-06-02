@@ -40,6 +40,7 @@ To improve readability and provide a quick reference for the concepts discussed 
 | **ISTA** | Initiator Station |
 | **KDK** | Key Derivation Key |
 | **KRACK** | Key Reinstallation Attacks |
+| **LMR** | Location Measurement Report |
 | **MAC** | Medium Access Control |
 | **MAP** | Maximum A Posteriori |
 | **MUSIC** | Multiple Signal Classification |
